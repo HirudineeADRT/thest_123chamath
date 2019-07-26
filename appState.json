@@ -1,0 +1,78 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "6a2eb29e-8fbe-4df9-be70-964720c398bf": {
+        "id": "6a2eb29e-8fbe-4df9-be70-964720c398bf",
+        "parent": null,
+        "name": "thest_123chamath",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "9dba22b0-3c53-4e20-9b20-070f63465806"
+        ],
+        "isRemovable": false,
+        "filePath": "thest_123chamath"
+      },
+      "9dba22b0-3c53-4e20-9b20-070f63465806": {
+        "id": "9dba22b0-3c53-4e20-9b20-070f63465806",
+        "parent": "6a2eb29e-8fbe-4df9-be70-964720c398bf",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "thest_123chamath/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "6a2eb29e-8fbe-4df9-be70-964720c398bf",
+    "openFiles": [
+      "9dba22b0-3c53-4e20-9b20-070f63465806"
+    ],
+    "currentFileId": "9dba22b0-3c53-4e20-9b20-070f63465806",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "thest_123chamath",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1564125545718
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "thest_123chamath",
+      "url": "https://github.com/HirudineeADRT/thest_123chamath",
+      "branches": []
+    }
+  }
+}
